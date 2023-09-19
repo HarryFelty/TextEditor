@@ -26,7 +26,6 @@ warmStrategyCache({
 
 registerRoute(({ request }) => request.mode === 'navigate', pageCache);
 
-// TODO: Implement asset caching (DONE)
 registerRoute(
   ({ request }) => {
     console.log(request);
@@ -47,8 +46,6 @@ registerRoute(
   })
 );
 
-// Register route for caching dynamic images
-// The cache first strategy is often the best choice for images because it saves bandwidth and improves performance.
 registerRoute(
   ({ request }) => request.destination === 'image',
   new CacheFirst({
@@ -59,7 +56,7 @@ registerRoute(
       }),
       new ExpirationPlugin({
         maxEntries: 60,
-        maxAgeSeconds: 30 * 24 * 60 * 60, // 30 Days
+        maxAgeSeconds: 30 * 24 * 60 * 60,
       }),
     ],
   })
