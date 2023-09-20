@@ -13,6 +13,14 @@ Welcome to the Text Editor Web Application project! This project is designed to 
 -[License](#license)
 
 ## Usage
+Repo: https://github.com/HarryFelty/TextEditor
+
+URL: https://vast-island-12384-08841a7aaa28.herokuapp.com/
+
+
+![Screenshot 2023-09-20 104147](https://github.com/HarryFelty/TextEditor/assets/125701349/6fbe14a6-464f-44c9-bf6d-9559fe8a7834)
+
+
 ### Starting the Application
 To start the Text Editor Web Application, follow these steps:
 
