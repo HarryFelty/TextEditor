@@ -16,6 +16,8 @@ Welcome to the Text Editor Web Application project! This project is designed to 
 ### Starting the Application
 To start the Text Editor Web Application, follow these steps:
 
+Clone the repository.
+
 Open your terminal and navigate to the project directory.
 
 Run the following command to start the application:
@@ -33,7 +35,6 @@ Open the text editor.
 Edit and enter content.
 Click off the DOM window to save your content to IndexedDB.
 Reopen the text editor to retrieve your saved content from IndexedDB.
-
 
 ## Installation
 Once the application is running, visit the site through a browser and click the `Install` button. Follow the prompts in the popup to finish the install.
